@@ -1,0 +1,22 @@
+{
+  "_fv": 60,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "jei_herbalism_recipe_type",
+    "result": {
+      "value": "CUSTOM:FTTNauseaTincture"
+    },
+    "count": 1,
+    "ingredients": [
+      {
+        "value": "Blocks.WARPED_FUNGUS"
+      },
+      {
+        "value": "Items.SPIDER_EYE"
+      },
+      {
+        "value": "Items.GLASS_BOTTLE"
+      }
+    ]
+  }
+}

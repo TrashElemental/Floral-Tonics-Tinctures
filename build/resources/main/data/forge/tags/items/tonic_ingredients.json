@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:flowers",
+    "minecraft:lily_pad",
+    "minecraft:warped_fungus",
+    "minecraft:crimson_fungus",
+    "minecraft:tube_coral",
+    "minecraft:brain_coral",
+    "minecraft:bubble_coral",
+    "minecraft:fire_coral",
+    "minecraft:horn_coral",
+    "minecraft:chorus_flower",
+    "minecraft:cactus",
+    "minecraft:glow_lichen",
+    "minecraft:sponge",
+    "minecraft:wet_sponge"
+  ]
+}

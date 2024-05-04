@@ -1,0 +1,4127 @@
+{
+  "mod_elements": [
+    {
+      "name": "FTTFireResistanceTonic",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_fire_resistance_tonic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTFireResistanceTonicItem.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_fire_resistance_tonic.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects"
+    },
+    {
+      "name": "FTTInvisibility",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_invisibility_tonic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTInvisibilityItem.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_invisibility_tonic.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects"
+    },
+    {
+      "name": "FloralTonicsAndTinctures",
+      "type": "tab",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floral_tonics_and_tinctures",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "FTTSwiftness",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_swiftness_tonic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTSwiftnessItem.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_swiftness_tonic.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects"
+    },
+    {
+      "name": "FTTRegen",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_regeneration_tonic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTRegenItem.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_regeneration_tonic.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects"
+    },
+    {
+      "name": "FTTNightVisionTonic",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_night_vision_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_night_vision_tonic.json",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTNightVisionTonicItem.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects"
+    },
+    {
+      "name": "FTTLeapingTonic",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_leaping_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_leaping_tonic.json",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTLeapingTonicItem.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects"
+    },
+    {
+      "name": "FTTWaterBreathingTonic",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_water_breathing_tonic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTWaterBreathingTonicItem.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_water_breathing_tonic.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects"
+    },
+    {
+      "name": "FTTWeaknessTincture",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_weakness_tincture",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTWeaknessTinctureItem.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_weakness_tincture.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects"
+    },
+    {
+      "name": "FTTSlownessTincture",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_slowness_tincture",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTSlownessTinctureItem.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_slowness_tincture.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects"
+    },
+    {
+      "name": "FTTPoisonTincture",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_poison_tincture",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_poison_tincture.json",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTPoisonTinctureItem.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects"
+    },
+    {
+      "name": "FTTInvisibilityArrow",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ftt_invisibility_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/ftt_invisibility_arrow.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Arrow Recipes"
+    },
+    {
+      "name": "FTTFireResistanceArrow",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ftt_fire_resistance_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/ftt_fire_resistance_arrow.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Arrow Recipes"
+    },
+    {
+      "name": "FTTWaterBreathingArrow",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ftt_water_breathing_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/ftt_water_breathing_arrow.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Arrow Recipes"
+    },
+    {
+      "name": "FTTPoisonArrow",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ftt_poison_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/ftt_poison_arrow.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Arrow Recipes"
+    },
+    {
+      "name": "FTTRegenerationArrow",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ftt_regeneration_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/ftt_regeneration_arrow.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Arrow Recipes"
+    },
+    {
+      "name": "FTTWeaknessArrow",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ftt_weakness_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/ftt_weakness_arrow.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Arrow Recipes"
+    },
+    {
+      "name": "FTTSlownessArrow",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ftt_slowness_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/ftt_slowness_arrow.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Arrow Recipes"
+    },
+    {
+      "name": "FTTSwiftnessArrow",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ftt_swiftness_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/ftt_swiftness_arrow.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Arrow Recipes"
+    },
+    {
+      "name": "FTTLeapingArrow",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ftt_leaping_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/ftt_leaping_arrow.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Arrow Recipes"
+    },
+    {
+      "name": "FTTNightVisionArrow",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ftt_night_vision_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/ftt_night_vision_arrow.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Arrow Recipes"
+    },
+    {
+      "name": "Ztemplate",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ztemplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/ztemplate.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Arrow Recipes"
+    },
+    {
+      "name": "FTTFireResistanceTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_fire_resistance_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTFireResistanceTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Procedures"
+    },
+    {
+      "name": "FTTInvisibilityPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_invisibility_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTInvisibilityPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Procedures"
+    },
+    {
+      "name": "FTTLeapingTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_leaping_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTLeapingTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Procedures"
+    },
+    {
+      "name": "FTTNightVisionTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_night_vision_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTNightVisionTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Procedures"
+    },
+    {
+      "name": "FTTPoisonTincturePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_poison_tincture_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTPoisonTincturePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Procedures"
+    },
+    {
+      "name": "FTTRegenPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_regen_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTRegenPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Procedures"
+    },
+    {
+      "name": "FTTSlownessTincturePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_slowness_tincture_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTSlownessTincturePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Procedures"
+    },
+    {
+      "name": "FTTSwiftnessPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_swiftness_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTSwiftnessPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Procedures"
+    },
+    {
+      "name": "FTTWaterBreathingTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_water_breathing_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTWaterBreathingTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Procedures"
+    },
+    {
+      "name": "FTTWeaknessTincturePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_weakness_tincture_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTWeaknessTincturePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Procedures"
+    },
+    {
+      "name": "FTTDecayTincture",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_decay_tincture",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_decay_tincture.json",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTDecayTinctureItem.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects"
+    },
+    {
+      "name": "FTTDecayTincturePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_decay_tincture_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTDecayTincturePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Procedures"
+    },
+    {
+      "name": "FTTBlindnessTincture",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_blindness_tincture",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTBlindnessTinctureItem.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_blindness_tincture.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects"
+    },
+    {
+      "name": "FTTBlindnessTincturePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_blindness_tincture_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTBlindnessTincturePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Procedures"
+    },
+    {
+      "name": "FTTLuckTonic",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_luck_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_luck_tonic.json",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTLuckTonicItem.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects"
+    },
+    {
+      "name": "FTTLuckTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_luck_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTLuckTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Procedures"
+    },
+    {
+      "name": "FTTStrengthTonic",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_strength_tonic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTStrengthTonicItem.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_strength_tonic.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects"
+    },
+    {
+      "name": "FTTStrengthTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_strength_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTStrengthTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Procedures"
+    },
+    {
+      "name": "FTTSlowFallingTonic",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_slow_falling_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_slow_falling_tonic.json",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTSlowFallingTonicItem.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects"
+    },
+    {
+      "name": "FTTSlowFallingTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_slow_falling_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTSlowFallingTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Procedures"
+    },
+    {
+      "name": "FTTStrengthArrow",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ftt_strength_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/ftt_strength_arrow.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Arrow Recipes"
+    },
+    {
+      "name": "FTTSlowFallingArrow",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ftt_slow_falling_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/ftt_slow_falling_arrow.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Arrow Recipes"
+    },
+    {
+      "name": "FTTLuckArrow",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ftt_luck_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/ftt_luck_arrow.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Arrow Recipes"
+    },
+    {
+      "name": "FTTDecayArrow",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ftt_decay_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/ftt_decay_arrow.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Arrow Recipes"
+    },
+    {
+      "name": "FTTBlindnessArrow",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ftt_blindness_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/ftt_blindness_arrow.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Arrow Recipes"
+    },
+    {
+      "name": "FTTLevitationTincture",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_levitation_tincture",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_levitation_tincture.json",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTLevitationTinctureItem.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects"
+    },
+    {
+      "name": "FTTLevitationTincturePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_levitation_tincture_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTLevitationTincturePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Procedures"
+    },
+    {
+      "name": "FTTDolphinsGraceTonic",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_dolphins_grace_tonic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTDolphinsGraceTonicItem.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_dolphins_grace_tonic.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects"
+    },
+    {
+      "name": "FTTDolphinsGraceTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_dolphins_grace_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTDolphinsGraceTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Procedures"
+    },
+    {
+      "name": "FTTGlowingTonic",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_glowing_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_glowing_tonic.json",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTGlowingTonicItem.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects"
+    },
+    {
+      "name": "FTTGlowingTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_glowing_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTGlowingTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Procedures"
+    },
+    {
+      "name": "FTTLevitationArrow",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ftt_levitation_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/ftt_levitation_arrow.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Arrow Recipes"
+    },
+    {
+      "name": "FTTHasteTonic",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_haste_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_haste_tonic.json",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTHasteTonicItem.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects"
+    },
+    {
+      "name": "FTTHasteTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_haste_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTHasteTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Procedures"
+    },
+    {
+      "name": "Prickly",
+      "type": "potioneffect",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prickly",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/potion/PricklyMobEffect.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/FTT Effects"
+    },
+    {
+      "name": "FTTPricklyTonic",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_prickly_tonic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTPricklyTonicItem.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_prickly_tonic.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTPricklyTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_prickly_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTPricklyTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "FTTNauseaTincture",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_nausea_tincture",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTNauseaTinctureItem.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_nausea_tincture.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects"
+    },
+    {
+      "name": "FTTNauseaTincturePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_nausea_tincture_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTNauseaTincturePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Procedures"
+    },
+    {
+      "name": "Blindness",
+      "type": "potion",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blindness",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tonics and Tinctures/Potions"
+    },
+    {
+      "name": "BlindnessPotion",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blindness_potion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/recipes/brewing/BlindnessPotionBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Potions/Recipes"
+    },
+    {
+      "name": "Decay",
+      "type": "potion",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decay",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tonics and Tinctures/Potions"
+    },
+    {
+      "name": "DecayPotion",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decay_potion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/recipes/brewing/DecayPotionBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Potions/Recipes"
+    },
+    {
+      "name": "Nausea",
+      "type": "potion",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nausea",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tonics and Tinctures/Potions"
+    },
+    {
+      "name": "Levitation",
+      "type": "potion",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "levitation",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tonics and Tinctures/Potions"
+    },
+    {
+      "name": "LevitationPotion",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "levitation_potion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/recipes/brewing/LevitationPotionBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Potions/Recipes"
+    },
+    {
+      "name": "NauseaPotion",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nausea_potion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/recipes/brewing/NauseaPotionBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Potions/Recipes"
+    },
+    {
+      "name": "HerbalismKit",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herbalism_kit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/herbalism_kit.json",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/inventory/HerbalismKitInventoryCapability.java",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/HerbalismKitItem.java"
+        ]
+      },
+      "path": "~/Herbalism"
+    },
+    {
+      "name": "FloralGift",
+      "type": "enchantment",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floral_gift",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/enchantment/FloralGiftEnchantment.java"
+        ]
+      },
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "DrinkNauseaAdvancement",
+      "type": "achievement",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drink_nausea_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/advancements/drink_nausea_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "FloralTonicsAndTincturesAdvancement",
+      "type": "achievement",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floral_tonics_and_tinctures_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/advancements/floral_tonics_and_tinctures_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "DrinkDecayAdvancement",
+      "type": "achievement",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drink_decay_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/advancements/drink_decay_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "HerbalismKitGetAdvancement",
+      "type": "achievement",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herbalism_kit_get_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/advancements/herbalism_kit_get_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "DrinkDGAdvancement",
+      "type": "achievement",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drink_dg_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/advancements/drink_dg_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "DrinkBlindAdvancement",
+      "type": "achievement",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drink_blind_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/advancements/drink_blind_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "DrinkHasteAdvancement",
+      "type": "achievement",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drink_haste_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/advancements/drink_haste_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "DrinkLevitationAdvancement",
+      "type": "achievement",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drink_levitation_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/advancements/drink_levitation_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "DrinkGlowAdvancement",
+      "type": "achievement",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drink_glow_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/advancements/drink_glow_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "HerbalismTable",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herbalism_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/herbalism_table.json",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/block/HerbalismTableBlock.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/blockstates/herbalism_table.json",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/block/herbalism_table.json"
+        ]
+      },
+      "path": "~/Herbalism"
+    },
+    {
+      "name": "FTTSpellDamageTonic",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_spell_damage_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_spell_damage_tonic.json",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTSpellDamageTonicItem.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTManaRegenTonic",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_mana_regen_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_mana_regen_tonic.json",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTManaRegenTonicItem.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTSpellDamageTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_spell_damage_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTSpellDamageTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "FTTManaRegenTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_mana_regen_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTManaRegenTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "FTTDeepsightTonic",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_deepsight_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_deepsight_tonic.json",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTDeepsightTonicItem.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTBugPheromonesTonic",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_bug_pheromones_tonic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTBugPheromonesTonicItem.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_bug_pheromones_tonic.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTRageTonic",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_rage_tonic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTRageTonicItem.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_rage_tonic.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTKnockbackResistanceTonic",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_knockback_resistance_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_knockback_resistance_tonic.json",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTKnockbackResistanceTonicItem.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTIntoxicationTincture",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_intoxication_tincture",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_intoxication_tincture.json",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTIntoxicationTinctureItem.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTRampageTonic",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_rampage_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_rampage_tonic.json",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTRampageTonicItem.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTArmorTonic",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_armor_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_armor_tonic.json",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTArmorTonicItem.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTDamageTonic",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_damage_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_damage_tonic.json",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTDamageTonicItem.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTPintCharisma",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_pint_charisma",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTPintCharismaItem.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_pint_charisma.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTHealingTouch",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_healing_touch",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTHealingTouchItem.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_healing_touch.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTToxicTouch",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_toxic_touch",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTToxicTouchItem.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_toxic_touch.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTProtectionOfTheHive",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_protection_of_the_hive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTProtectionOfTheHiveItem.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_protection_of_the_hive.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTDeepsightTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_deepsight_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTDeepsightTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "FTTRageTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_rage_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTRageTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "FTTBugPheromonesTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_bug_pheromones_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTBugPheromonesTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "FTTKnockbackResistanceTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_knockback_resistance_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTKnockbackResistanceTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "FTTIntoxicationTincturePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_intoxication_tincture_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTIntoxicationTincturePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "FTTRampageTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_rampage_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTRampageTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "FTTArmorTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_armor_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTArmorTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "FTTDamageTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_damage_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTDamageTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "FTTPintCharismaTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_pint_charisma_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTPintCharismaTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "FTTHealingTouchTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_healing_touch_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTHealingTouchTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "FTTToxicTouchTincturePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_toxic_touch_tincture_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTToxicTouchTincturePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "FTTProtectionOfTheHiveTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_protection_of_the_hive_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTProtectionOfTheHiveTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "CompatIcon",
+      "type": "item",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compat_icon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/compat_icon.json",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/CompatIconItem.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FloralTonicsCompat",
+      "type": "tab",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floral_tonics_compat",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "FloralGiftEntityDeath",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floral_gift_entity_death",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FloralGiftEntityDeathProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "PricklyPotionEffect",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prickly_potion_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/PricklyPotionEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/FTT Effects"
+    },
+    {
+      "name": "Purifying",
+      "type": "potioneffect",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purifying",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/potion/PurifyingMobEffect.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/FTT Effects"
+    },
+    {
+      "name": "PurifyingPotionEffect",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purifying_potion_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/PurifyingPotionEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/FTT Effects"
+    },
+    {
+      "name": "PurifyingPotionRightClick",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purifying_potion_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/PurifyingPotionRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/FTT Effects"
+    },
+    {
+      "name": "FTTPurifyingTonic",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_purifying_tonic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTPurifyingTonicItem.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_purifying_tonic.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTPurifyingTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_purifying_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTPurifyingTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "DrinkPricklyAdvancement",
+      "type": "achievement",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drink_prickly_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/advancements/drink_prickly_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "DrinkPurifyingAdvancement",
+      "type": "achievement",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drink_purifying_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/advancements/drink_purifying_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "DrinkLuckAdvancement",
+      "type": "achievement",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drink_luck_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/advancements/drink_luck_advancement.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "FTTNauseaArrow",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ftt_nausea_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/ftt_nausea_arrow.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Arrow Recipes"
+    },
+    {
+      "name": "HerbalismTableRecipe",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herbalism_table_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/herbalism_table_recipe.json"
+        ]
+      },
+      "path": "~/Herbalism/Recipes"
+    },
+    {
+      "name": "HerbalismKitRecipe",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herbalism_kit_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/herbalism_kit_recipe.json"
+        ]
+      },
+      "path": "~/Herbalism/Recipes"
+    },
+    {
+      "name": "HerbalismTableGUI",
+      "type": "gui",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herbalism_table_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/client/gui/HerbalismTableGUIScreen.java",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/network/HerbalismTableGUISlotMessage.java",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/world/inventory/HerbalismTableGUIMenu.java"
+        ]
+      },
+      "path": "~/Herbalism/GUIs"
+    },
+    {
+      "name": "HerbalismTableItemTakenFromOutputSlot",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herbalism_table_item_taken_from_output_slot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/HerbalismTableItemTakenFromOutputSlotProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Herbalism/Procedures"
+    },
+    {
+      "name": "HerbalismTableGUIWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herbalism_table_gui_while_this_gui_is_open_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/HerbalismTableGUIWhileThisGUIIsOpenTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Herbalism/Procedures"
+    },
+    {
+      "name": "HerbalismTableOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herbalism_table_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/HerbalismTableOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Herbalism/Procedures"
+    },
+    {
+      "name": "HerbalismKitGUI",
+      "type": "gui",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "herbalism_kit_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/world/inventory/HerbalismKitGUIMenu.java",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/client/gui/HerbalismKitGUIScreen.java",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/network/HerbalismKitGUISlotMessage.java"
+        ]
+      },
+      "path": "~/Herbalism/GUIs"
+    },
+    {
+      "name": "Tonics",
+      "type": "tag",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tonics",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/tags/items/tonics.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "BottleIconGUIDisplay",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottle_icon_gui_display",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/BottleIconGUIDisplayProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Herbalism/Procedures"
+    },
+    {
+      "name": "FlowerItems",
+      "type": "tag",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/flowers.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "FlowerIconSlot0",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_icon_slot_0",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FlowerIconSlot0Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Herbalism/Procedures"
+    },
+    {
+      "name": "SugarIconSlot16",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugar_icon_slot_16",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/SugarIconSlot16Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Herbalism/Procedures"
+    },
+    {
+      "name": "SpiderEyeIconSlot17",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_eye_icon_slot_17",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/SpiderEyeIconSlot17Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Herbalism/Procedures"
+    },
+    {
+      "name": "TonicIngredients",
+      "type": "tag",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tonic_ingredients",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/tonic_ingredients.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "TonicAdditives",
+      "type": "tag",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tonic_additives",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/tonic_additives.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "BottleIconSlot9",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottle_icon_slot_9",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/BottleIconSlot9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Herbalism/Procedures"
+    },
+    {
+      "name": "JEIHerbalismRecipeType",
+      "type": "jeirecipetype",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_herbalism_recipe_type",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/jei_recipes/JEIHerbalismRecipeTypeRecipe.java",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/jei_recipes/JEIHerbalismRecipeTypeRecipeCategory.java"
+        ]
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "JEIFireResistTonic",
+      "type": "jeirecipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_fire_resist_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_fire_resist_tonic.json"
+        ]
+      },
+      "path": "~/JEI/Vanilla Effects"
+    },
+    {
+      "name": "JEINauseaTincture",
+      "type": "jeirecipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_nausea_tincture",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_nausea_tincture.json"
+        ]
+      },
+      "path": "~/JEI/Vanilla Effects"
+    },
+    {
+      "name": "JEIBlindnessTincture",
+      "type": "jeirecipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_blindness_tincture",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_blindness_tincture.json"
+        ]
+      },
+      "path": "~/JEI/Vanilla Effects"
+    },
+    {
+      "name": "JEIDecayTincture",
+      "type": "jeirecipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_decay_tincture",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_decay_tincture.json"
+        ]
+      },
+      "path": "~/JEI/Vanilla Effects"
+    },
+    {
+      "name": "JEIPoisonTincture",
+      "type": "jeirecipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_poison_tincture",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_poison_tincture.json"
+        ]
+      },
+      "path": "~/JEI/Vanilla Effects"
+    },
+    {
+      "name": "JEISlownessTincture",
+      "type": "jeirecipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_slowness_tincture",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_slowness_tincture.json"
+        ]
+      },
+      "path": "~/JEI/Vanilla Effects"
+    },
+    {
+      "name": "JEIWeakness",
+      "type": "jeirecipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_weakness",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_weakness.json"
+        ]
+      },
+      "path": "~/JEI/Vanilla Effects"
+    },
+    {
+      "name": "Tulips",
+      "type": "tag",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tulips",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/tags/items/tulips.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Corals",
+      "type": "tag",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corals",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/tags/items/corals.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "JEILevitationTincture",
+      "type": "jeirecipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_levitation_tincture",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_levitation_tincture.json"
+        ]
+      },
+      "path": "~/JEI/Vanilla Effects"
+    },
+    {
+      "name": "JEIWaterBreathingTonic",
+      "type": "jeirecipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_water_breathing_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_water_breathing_tonic.json"
+        ]
+      },
+      "path": "~/JEI/Vanilla Effects"
+    },
+    {
+      "name": "JEIJumpBoostTonic",
+      "type": "jeirecipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_jump_boost_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_jump_boost_tonic.json"
+        ]
+      },
+      "path": "~/JEI/Vanilla Effects"
+    },
+    {
+      "name": "JEINightVisionTonic",
+      "type": "jeirecipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_night_vision_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_night_vision_tonic.json"
+        ]
+      },
+      "path": "~/JEI/Vanilla Effects"
+    },
+    {
+      "name": "JEIRegenerationTonic",
+      "type": "jeirecipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_regeneration_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_regeneration_tonic.json"
+        ]
+      },
+      "path": "~/JEI/Vanilla Effects"
+    },
+    {
+      "name": "JEISwiftnessTonic",
+      "type": "jeirecipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_swiftness_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_swiftness_tonic.json"
+        ]
+      },
+      "path": "~/JEI/Vanilla Effects"
+    },
+    {
+      "name": "JEIInvsibilityTonic",
+      "type": "jeirecipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_invsibility_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_invsibility_tonic.json"
+        ]
+      },
+      "path": "~/JEI/Vanilla Effects"
+    },
+    {
+      "name": "JEIDolphinsGraceTonic",
+      "type": "jeirecipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_dolphins_grace_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_dolphins_grace_tonic.json"
+        ]
+      },
+      "path": "~/JEI/Vanilla Effects"
+    },
+    {
+      "name": "JEIPricklyTonic",
+      "type": "jeirecipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_prickly_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_prickly_tonic.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "JEILuckTonic",
+      "type": "jeirecipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_luck_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_luck_tonic.json"
+        ]
+      },
+      "path": "~/JEI/Vanilla Effects"
+    },
+    {
+      "name": "JEIGlowingTonic",
+      "type": "jeirecipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_glowing_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_glowing_tonic.json"
+        ]
+      },
+      "path": "~/JEI/Vanilla Effects"
+    },
+    {
+      "name": "JEIStrengthTonic",
+      "type": "jeirecipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_strength_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_strength_tonic.json"
+        ]
+      },
+      "path": "~/JEI/Vanilla Effects"
+    },
+    {
+      "name": "JEISlowFallingTonic",
+      "type": "jeirecipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_slow_falling_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_slow_falling_tonic.json"
+        ]
+      },
+      "path": "~/JEI/Vanilla Effects"
+    },
+    {
+      "name": "JEIHasteTonic",
+      "type": "jeirecipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_haste_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_haste_tonic.json"
+        ]
+      },
+      "path": "~/JEI/Vanilla Effects"
+    },
+    {
+      "name": "JEIPurifyingTonic",
+      "type": "jeirecipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_purifying_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_purifying_tonic.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "Sponges",
+      "type": "tag",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sponges",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/tags/items/sponges.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "JEIHerbalismTableInfo",
+      "type": "jeiinformation",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_herbalism_table_info",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "JEIHerbalistKitInfo",
+      "type": "jeiinformation",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_herbalist_kit_info",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "JEIArmorTonic",
+      "type": "jeirecipe",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_armor_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_armor_tonic.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "JEIDamageTonic",
+      "type": "jeirecipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_damage_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_damage_tonic.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "JEIPintCharisma",
+      "type": "jeirecipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_pint_charisma",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_pint_charisma.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "JEIHealingTouch",
+      "type": "jeirecipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_healing_touch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_healing_touch.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "JEIRampage",
+      "type": "jeirecipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_rampage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_rampage.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "JEISpellDamage",
+      "type": "jeirecipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_spell_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_spell_damage.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "JEIManaRegen",
+      "type": "jeirecipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_mana_regen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_mana_regen.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "JEIProtectionOfTheHive",
+      "type": "jeirecipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_protection_of_the_hive",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_protection_of_the_hive.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "JEIKnockbackResistance",
+      "type": "jeirecipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_knockback_resistance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_knockback_resistance.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "JEIBugPheromones",
+      "type": "jeirecipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_bug_pheromones",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_bug_pheromones.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "JEIDeepsight",
+      "type": "jeirecipe",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_deepsight",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_deepsight.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "JEIRage",
+      "type": "jeirecipe",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_rage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_rage.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "JEIToxicTouch",
+      "type": "jeirecipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_toxic_touch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_toxic_touch.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "JEIIntoxication",
+      "type": "jeirecipe",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_intoxication",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_intoxication.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "Haste",
+      "type": "potion",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tonics and Tinctures/Potions"
+    },
+    {
+      "name": "DolphinsGrace",
+      "type": "potion",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolphins_grace",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tonics and Tinctures/Potions"
+    },
+    {
+      "name": "DolphinsGracePotion",
+      "type": "recipe",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolphins_grace_potion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/recipes/brewing/DolphinsGracePotionBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Potions/Recipes"
+    },
+    {
+      "name": "HastePotion",
+      "type": "recipe",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_potion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/recipes/brewing/HastePotionBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Potions/Recipes"
+    },
+    {
+      "name": "FTTSunscreenTonic",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_sunscreen_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_sunscreen_tonic.json",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTSunscreenTonicItem.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTThirdEyeTonic",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_third_eye_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_third_eye_tonic.json",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTThirdEyeTonicItem.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTVibingTonic",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_vibing_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_vibing_tonic.json",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTVibingTonicItem.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTRepellenceTincture",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_repellence_tincture",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTRepellenceTinctureItem.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_repellence_tincture.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTAgilityTonic",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_agility_tonic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTAgilityTonicItem.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_agility_tonic.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTBerserkingTonic",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_berserking_tonic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_berserking_tonic.json",
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTBerserkingTonicItem.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTHarmonyTonic",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_harmony_tonic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTHarmonyTonicItem.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_harmony_tonic.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTVanillaScent",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_vanilla_scent_tonic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTVanillaScentItem.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_vanilla_scent_tonic.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTNeapolitanInstantHealth1",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_neapolitan_instant_health_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTNeapolitanInstantHealth1Item.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_neapolitan_instant_health_1.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTNeapolitanInstantHealth2",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_neapolitan_instant_health_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTNeapolitanInstantHealth2Item.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_neapolitan_instant_health_2.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTSunscreenTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_sunscreen_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTSunscreenTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "FTTThirdEyeTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_third_eye_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTThirdEyeTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "FTTVibingTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_vibing_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTVibingTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "FTTRepellenceTincturePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_repellence_tincture_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTRepellenceTincturePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "FTTAgilityTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_agility_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTAgilityTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "FTTBerserkingTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_berserking_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTBerserkingTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "FTTHarmonyTonicPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_harmony_tonic_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTHarmonyTonicPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "FTTVanillaScentPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_vanilla_scent_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTVanillaScentPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "FTTNeapolitanInstantHealth1PlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_neapolitan_instant_health_1_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTNeapolitanInstantHealth1PlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "FTTNeapolitanInstantHealth2PlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_neapolitan_instant_health_2_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTNeapolitanInstantHealth2PlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "JEISunscreen",
+      "type": "jeirecipe",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_sunscreen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_sunscreen.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "JEIThirdEye",
+      "type": "jeirecipe",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_third_eye",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_third_eye.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "JEIVibing",
+      "type": "jeirecipe",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_vibing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_vibing.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "JEIRepellence",
+      "type": "jeirecipe",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_repellence",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_repellence.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "JEIAgility",
+      "type": "jeirecipe",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_agility",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_agility.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "JEIBerserking",
+      "type": "jeirecipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_berserking",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_berserking.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "JEIHarmony",
+      "type": "jeirecipe",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_harmony",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_harmony.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "JEIVanillaScent",
+      "type": "jeirecipe",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_vanilla_scent",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_vanilla_scent.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "JEINeapolitanInstantHealth1",
+      "type": "jeirecipe",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_neapolitan_instant_health_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_neapolitan_instant_health_1.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "JEINeapolitanInstantHealth2",
+      "type": "jeirecipe",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_neapolitan_instant_health_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_neapolitan_instant_health_2.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "FTTParalyzedTincture",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_paralyzed_tincture",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/item/FTTParalyzedTinctureItem.java",
+          "src/main/resources/assets/floral_tonics_and_tinctures/models/item/ftt_paralyzed_tincture.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects"
+    },
+    {
+      "name": "FTTParalyzedTincturePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ftt_paralyzed_tincture_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/FTTParalyzedTincturePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Procedures"
+    },
+    {
+      "name": "JEIParalyzed",
+      "type": "jeirecipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jei_paralyzed",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/jei_paralyzed.json"
+        ]
+      },
+      "path": "~/JEI/Modded Effects"
+    },
+    {
+      "name": "FTTDolphinsGraceArrow",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ftt_dolphins_grace_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/ftt_dolphins_grace_arrow.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Arrow Recipes"
+    },
+    {
+      "name": "FTTHasteArrow",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ftt_haste_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/ftt_haste_arrow.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Vanilla Effects/Arrow Recipes"
+    },
+    {
+      "name": "Alchemized",
+      "type": "enchantment",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alchemized",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/enchantment/AlchemizedEnchantment.java"
+        ]
+      },
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "AlchemizedEnchantProc",
+      "type": "procedure",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alchemized_enchant_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/procedures/AlchemizedEnchantProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "JEIPricklyInfo",
+      "type": "jeiinformation",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_prickly_info",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "JEIPurifyingInfo",
+      "type": "jeiinformation",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jei_purifying_info",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/JEI"
+    },
+    {
+      "name": "FTTIntoxicatingBombRecipe",
+      "type": "recipe",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ftt_intoxicating_bomb_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/floral_tonics_and_tinctures/recipes/ftt_intoxicating_bomb_recipe.json"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Modded Effects/Recipes"
+    },
+    {
+      "name": "LuckPotion",
+      "type": "recipe",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luck_potion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/floraltonicsandtinctures/recipes/brewing/LuckPotionBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Tonics and Tinctures/Potions/Recipes"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "item.minecraft.tipped_arrow.effect.haste": "Arrow of Haste",
+      "advancements.drink_prickly_advancement.descr": "Drink a Tonic of Prickliness",
+      "item.minecraft.potion.effect.levitation": "Potion of Levitation",
+      "item.minecraft.splash_potion.effect.nausea": "Splash Potion of Nausea",
+      "item.floral_tonics_and_tinctures.ftt_mana_regen_tonic": "Tonic of Mana Regen",
+      "item.floral_tonics_and_tinctures.ftt_invisibility_tonic": "Tonic of Invisibility",
+      "jei.floral_tonics_and_tinctures.jei_prickly_info": "Entities with the prickly effect will deal a half-heart of damage to their attacker each time they are hit.",
+      "jei.floral_tonics_and_tinctures.jei_herbalism_table_info": "With an herbalism table, you can brew tonics and tinctures using flowers, and other natural items. Positive potion effects use sugar as an additional ingredient, while negative effects use spider eye. Tonics and tinctures can be stacked up to three, but only last half as long as their potion counterpart. Most tonics and tinctures can also be used to craft tipped arrows.",
+      "item.floral_tonics_and_tinctures.ftt_paralyzed_tincture": "Tincture of Neurotoxin",
+      "item.floral_tonics_and_tinctures.ftt_weakness_tincture": "Tincture of Weakness",
+      "item.floral_tonics_and_tinctures.ftt_prickly_tonic": "Tonic of Prickliness",
+      "item.floral_tonics_and_tinctures.ftt_glowing_tonic": "Tonic of Glowing",
+      "item.minecraft.splash_potion.effect.decay": "Splash Potion of Decay",
+      "gui.floral_tonics_and_tinctures.herbalism_kit_gui.label_herbalism_kit": "Herbalism Kit",
+      "advancements.drink_purifying_advancement.title": "I Am The Cure",
+      "item.minecraft.tipped_arrow.effect.blindness": "Arrow of Blindness",
+      "advancements.floral_tonics_and_tinctures_advancement.title": "Floral Tonics And Tinctures",
+      "advancements.drink_levitation_advancement.descr": "Drink a Tincture of Levitation",
+      "advancements.drink_glow_advancement.title": "It\u0027s Getting Bright",
+      "advancements.drink_haste_advancement.title": "Let\u0027s Be Hasty",
+      "item.floral_tonics_and_tinctures.ftt_water_breathing_tonic": "Tonic of Water Breathing",
+      "item.minecraft.lingering_potion.effect.haste": "Lingering Potion of Haste",
+      "item.minecraft.splash_potion.effect.dolphins_grace": "Splash Potion of Dolphin\u0027s Grace",
+      "item.floral_tonics_and_tinctures.ftt_poison_tincture": "Tincture of Poison",
+      "item.minecraft.lingering_potion.effect.levitation": "Lingering Potion of Levitation",
+      "item_group.floral_tonics_and_tinctures.floral_tonics_compat": "Floral Tonics Compat",
+      "advancements.drink_blind_advancement.title": "It\u0027s Getting Dark",
+      "item.floral_tonics_and_tinctures.ftt_nausea_tincture": "Tincture of Nausea",
+      "item.floral_tonics_and_tinctures.ftt_strength_tonic": "Tonic of Strength",
+      "item.minecraft.lingering_potion.effect.blindness": "Lingering Potion of Blindness",
+      "advancements.drink_decay_advancement.title": "I Don\u0027t Know What I Expected",
+      "item.floral_tonics_and_tinctures.ftt_rampage_tonic": "Tonic of Rampage",
+      "item.floral_tonics_and_tinctures.ftt_leaping_tonic": "Tonic of Leaping",
+      "advancements.herbalism_kit_get_advancement.descr": "Craft an Herbalism Kit to brew tonics and tinctures on the go.",
+      "item.floral_tonics_and_tinctures.ftt_slow_falling_tonic": "Tonic of Slow Falling",
+      "jei.floral_tonics_and_tinctures.jei_purifying_info": "Creatures with the purifying effect will cleanse any potion effects from any entity they attack or right click.",
+      "item.minecraft.lingering_potion.effect.dolphins_grace": "Lingering Potion of Dolphin\u0027s Grace",
+      "advancements.drink_dg_advancement.title": "Under The Sea",
+      "advancements.drink_purifying_advancement.descr": "Drink a Tonic of Purifying",
+      "item.floral_tonics_and_tinctures.ftt_vibing_tonic": "Tonic of Vibing",
+      "advancements.drink_luck_advancement.descr": "Drink a Tonic of Luck",
+      "item.floral_tonics_and_tinctures.ftt_berserking_tonic": "Tonic of Berserking",
+      "advancements.drink_haste_advancement.descr": "Drink a Tonic of Haste",
+      "item.floral_tonics_and_tinctures.ftt_decay_tincture": "Tincture of Decay",
+      "item.minecraft.potion.effect.dolphins_grace": "Potion of Dolphin\u0027s Grace",
+      "item.floral_tonics_and_tinctures.ftt_purifying_tonic": "Tonic of Purifying",
+      "item.minecraft.tipped_arrow.effect.dolphins_grace": "Arrow of Dolphin\u0027s Grace",
+      "item.floral_tonics_and_tinctures.ftt_dolphins_grace_tonic": "Tonic of Dolphin\u0027s Grace",
+      "item_group.floral_tonics_and_tinctures.floral_tonics_and_tinctures": "Floral Tonics And Tinctures",
+      "item.floral_tonics_and_tinctures.ftt_deepsight_tonic": "Tonic of Deepsight",
+      "item.floral_tonics_and_tinctures.ftt_toxic_touch": "Tincture of Toxic Touch",
+      "item.floral_tonics_and_tinctures.ftt_spell_damage_tonic": "Tonic of Spell Damage",
+      "item.minecraft.splash_potion.effect.blindness": "Splash Potion of Blindness",
+      "item.minecraft.potion.effect.blindness": "Potion of Blindness",
+      "item.floral_tonics_and_tinctures.ftt_harmony_tonic": "Tonic of Harmony",
+      "item.floral_tonics_and_tinctures.ftt_levitation_tincture": "Tincture of Levitation",
+      "item.minecraft.tipped_arrow.effect.levitation": "Arrow of Levitation",
+      "item.floral_tonics_and_tinctures.ftt_pint_charisma": "Tonic of Pint Charisma",
+      "gui.floral_tonics_and_tinctures.herbalism_kit_gui.label_inventory": "Inventory",
+      "gui.floral_tonics_and_tinctures.herbalism_table_gui.label_herbalism_table": "Herbalism Table",
+      "advancements.drink_prickly_advancement.title": "Yeowch! (Touching A Cactus)",
+      "jei.floral_tonics_and_tinctures.jei_herbalist_kit_info": "Functions as a portable herbalism table, and also able to store flowers, bottles, tonics and tinctures, and the additional ingredients required.",
+      "advancements.drink_glow_advancement.descr": "Drink a Tonic of Glowing",
+      "item.floral_tonics_and_tinctures.ftt_healing_touch": "Tonic of Healing Touch",
+      "item.floral_tonics_and_tinctures.ftt_third_eye_tonic": "Tonic of Third Eye",
+      "item.minecraft.lingering_potion.effect.nausea": "Lingering Potion of Nausea",
+      "enchantment.floral_tonics_and_tinctures.floral_gift.desc": "Slain entities have a chance to drop flowers or tonic ingredients.",
+      "item.floral_tonics_and_tinctures.ftt_agility_tonic": "Tonic of Agility",
+      "item.floral_tonics_and_tinctures.ftt_swiftness_tonic": "Tonic of Swiftness",
+      "item.floral_tonics_and_tinctures.compat_icon": "Compat Icon",
+      "item.floral_tonics_and_tinctures.ftt_bug_pheromones_tonic": "Tonic of Bug Pheromones",
+      "advancements.drink_levitation_advancement.title": "Up And Away",
+      "item.floral_tonics_and_tinctures.ftt_protection_of_the_hive": "Tonic of Hive\u0027s Protection",
+      "advancements.drink_luck_advancement.title": "Do You Feel Lucky, Punk?",
+      "item.floral_tonics_and_tinctures.ftt_rage_tonic": "Tonic of Rage",
+      "effect.floral_tonics_and_tinctures.purifying": "Purifying",
+      "item.floral_tonics_and_tinctures.ftt_repellence_tincture": "Tincture of Repellence",
+      "enchantment.floral_tonics_and_tinctures.alchemized": "Alchemized",
+      "item.floral_tonics_and_tinctures.ftt_vanilla_scent_tonic": "Tonic of Vanilla Scent",
+      "item.minecraft.lingering_potion.effect.decay": "Lingering Potion of Decay",
+      "item.floral_tonics_and_tinctures.ftt_intoxication_tincture": "Tincture of Intoxication",
+      "item.floral_tonics_and_tinctures.herbalism_kit": "Herbalism Kit",
+      "item.minecraft.tipped_arrow.effect.decay": "Arrow of Decay",
+      "item.floral_tonics_and_tinctures.ftt_luck_tonic": "Tonic of Luck",
+      "effect.floral_tonics_and_tinctures.prickly": "Prickly",
+      "advancements.drink_nausea_advancement.title": "Purple Drank",
+      "advancements.drink_nausea_advancement.descr": "Drink a Tincture of Nausea",
+      "item.floral_tonics_and_tinctures.ftt_armor_tonic": "Tonic of Armor",
+      "item.floral_tonics_and_tinctures.ftt_damage_tonic": "Tonic of Damage",
+      "item.minecraft.potion.effect.nausea": "Potion of Nausea",
+      "advancements.drink_decay_advancement.descr": "Drink a Tincture of Decay for some reason.",
+      "advancements.herbalism_kit_get_advancement.title": "Let\u0027s Get Moving!",
+      "advancements.drink_dg_advancement.descr": "Drink a Tonic of Dolphin\u0027s Grace",
+      "item.minecraft.splash_potion.effect.haste": "Splash Potion of Haste",
+      "item.floral_tonics_and_tinctures.ftt_fire_resistance_tonic": "Tonic of Fire Resistance",
+      "gui.floral_tonics_and_tinctures.herbalism_table_gui.label_inventory": "Inventory",
+      "item.floral_tonics_and_tinctures.ftt_regeneration_tonic": "Tonic of Regeneration",
+      "item.floral_tonics_and_tinctures.ftt_sunscreen_tonic": "Tonic of Sunscreen",
+      "item.floral_tonics_and_tinctures.ftt_neapolitan_instant_health_1": "Tonic of Health",
+      "block.floral_tonics_and_tinctures.herbalism_table": "Herbalism Table",
+      "item.floral_tonics_and_tinctures.ftt_neapolitan_instant_health_2": "Tonic of Health",
+      "item.floral_tonics_and_tinctures.ftt_slowness_tincture": "Tincture of Slowness",
+      "item.floral_tonics_and_tinctures.ftt_haste_tonic": "Tonic of Haste",
+      "item.minecraft.tipped_arrow.effect.nausea": "Arrow of Nausea",
+      "item.floral_tonics_and_tinctures.ftt_blindness_tincture": "Tincture of Blindness",
+      "item.minecraft.potion.effect.haste": "Potion of Haste",
+      "item.minecraft.splash_potion.effect.levitation": "Splash Potion of Levitation",
+      "advancements.drink_blind_advancement.descr": "Drink a Tincture of Blindness",
+      "item.floral_tonics_and_tinctures.ftt_night_vision_tonic": "Tonic of Night Vision",
+      "item.floral_tonics_and_tinctures.ftt_knockback_resistance_tonic": "Tonic of Knockback Resistance",
+      "enchantment.floral_tonics_and_tinctures.alchemized.desc": "Chance to apply a beneficial potion effect on being attacked.",
+      "advancements.floral_tonics_and_tinctures_advancement.descr": "Craft an Herbalism Table",
+      "enchantment.floral_tonics_and_tinctures.floral_gift": "Floral Gift",
+      "item.minecraft.potion.effect.decay": "Potion of Decay"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Tonics and Tinctures",
+        "children": [
+          {
+            "name": "Vanilla Effects",
+            "children": [
+              {
+                "name": "Arrow Recipes",
+                "children": []
+              },
+              {
+                "name": "Procedures",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Modded Effects",
+            "children": [
+              {
+                "name": "Procedures",
+                "children": []
+              },
+              {
+                "name": "Recipes",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Potions",
+            "children": [
+              {
+                "name": "Recipes",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "FTT Effects",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "JEI",
+        "children": [
+          {
+            "name": "Vanilla Effects",
+            "children": []
+          },
+          {
+            "name": "Modded Effects",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Herbalism",
+        "children": [
+          {
+            "name": "Procedures",
+            "children": []
+          },
+          {
+            "name": "Recipes",
+            "children": []
+          },
+          {
+            "name": "GUIs",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "Tags",
+        "children": []
+      },
+      {
+        "name": "Enchantments",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "floral_tonics_and_tinctures",
+    "modName": "Floral Tonics and Tinctures",
+    "version": "1.0.0",
+    "description": "Early game potions and tipped arrows, plus new effects and added recipes for existing ones.",
+    "author": "TrashElemental",
+    "websiteURL": "https://mcreator.net/",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "jei"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using MCreator.",
+    "modElementsPackage": "net.mcreator.floraltonicsandtinctures"
+  },
+  "mcreatorVersion": 202300452316
+}

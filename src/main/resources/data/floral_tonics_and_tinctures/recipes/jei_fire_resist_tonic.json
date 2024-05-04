@@ -1,0 +1,18 @@
+{
+  "type": "floral_tonics_and_tinctures:jei_herbalism_recipe_type",
+  "ingredients": [
+    {
+      "item": "minecraft:allium"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "output": {
+    "item": "floral_tonics_and_tinctures:ftt_fire_resistance_tonic",
+    "count": 1
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "_fv": 60,
+  "_type": "jeirecipetype",
+  "definition": {
+    "textureSelector": "jeirecipetexture.png",
+    "width": 175,
+    "height": 81,
+    "icon": {
+      "value": "CUSTOM:HerbalismTable"
+    },
+    "craftingtable": {
+      "value": "CUSTOM:HerbalismTable"
+    },
+    "enableCraftingtable": true,
+    "title": "Herbalism",
+    "slotList": [
+      {
+        "type": "INPUT",
+        "x": 8,
+        "y": 26,
+        "slotid": 0
+      },
+      {
+        "type": "INPUT",
+        "x": 32,
+        "y": 26,
+        "slotid": 1
+      },
+      {
+        "type": "INPUT",
+        "x": 20,
+        "y": 50,
+        "slotid": 2
+      },
+      {
+        "type": "OUTPUT",
+        "x": 140,
+        "y": 37,
+        "slotid": 0
+      }
+    ]
+  }
+}

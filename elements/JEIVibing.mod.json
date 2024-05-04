@@ -1,0 +1,22 @@
+{
+  "_fv": 60,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "jei_herbalism_recipe_type",
+    "result": {
+      "value": "CUSTOM:FTTVibingTonic"
+    },
+    "count": 1,
+    "ingredients": [
+      {
+        "value": "Blocks.CACTUS"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "Items.GLASS_BOTTLE"
+      }
+    ]
+  }
+}

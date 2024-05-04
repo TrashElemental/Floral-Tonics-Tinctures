@@ -1,0 +1,7 @@
+{
+  "_fv": 60,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"351\" y=\"65\"><field name=\"trigger\">player_right_click_entity</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"logic_binary_ops\"><field name=\"OP\">EQ</field><value name=\"A\"><block type=\"entity_haspotioneffect\"><field name=\"potion\">CUSTOM:Purifying</field><value name=\"entity\"><block type=\"source_entity_from_deps\"/></value></block></value><value name=\"B\"><block type=\"logic_boolean\"><field name=\"BOOL\">TRUE</field></block></value></block></value><statement name=\"DO0\"><block type=\"entity_swing_mainhand\"><value name=\"entity\"><block type=\"source_entity_from_deps\"/></value><next><block type=\"entity_clearpotions\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></next></block></statement></block></next></block></xml>"
+  }
+}

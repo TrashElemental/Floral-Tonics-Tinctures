@@ -1,0 +1,14 @@
+{
+  "_fv": 60,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:HerbalismKit"
+      }
+    ],
+    "information": [
+      "Functions as a portable herbalism table, and also able to store flowers, bottles, tonics and tinctures, and the additional ingredients required."
+    ]
+  }
+}

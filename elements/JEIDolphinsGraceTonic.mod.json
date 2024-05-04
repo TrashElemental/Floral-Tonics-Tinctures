@@ -1,0 +1,22 @@
+{
+  "_fv": 60,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "jei_herbalism_recipe_type",
+    "result": {
+      "value": "CUSTOM:FTTDolphinsGraceTonic"
+    },
+    "count": 1,
+    "ingredients": [
+      {
+        "value": "TAG:floral_tonics_and_tinctures:corals"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "Items.GLASS_BOTTLE"
+      }
+    ]
+  }
+}

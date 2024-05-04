@@ -1,0 +1,36 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "floral_tonics_and_tinctures:herbalism_table"
+    },
+    "title": {
+      "translate": "advancements.floral_tonics_and_tinctures_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.floral_tonics_and_tinctures_advancement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "floral_tonics_and_tinctures_advancement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral_tonics_and_tinctures:herbalism_table"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "floral_tonics_and_tinctures:blocks/herbalism_table",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "floral_tonics_and_tinctures:herbalism_table"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:string"
+    },
+    "b": {
+      "item": "minecraft:gold_ingot"
+    },
+    "c": {
+      "item": "minecraft:leather"
+    },
+    "d": {
+      "item": "floral_tonics_and_tinctures:herbalism_table"
+    }
+  },
+  "result": {
+    "item": "floral_tonics_and_tinctures:herbalism_kit",
+    "count": 1
+  }
+}

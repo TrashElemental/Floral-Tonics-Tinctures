@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:arrow"
+    },
+    {
+      "item": "minecraft:arrow"
+    },
+    {
+      "item": "floral_tonics_and_tinctures:ftt_decay_tincture"
+    },
+    {
+      "item": "minecraft:arrow"
+    },
+    {
+      "item": "minecraft:arrow"
+    }
+  ],
+  "result": {
+    "item": "minecraft:tipped_arrow",
+    "nbt": "{Potion:\"floral_tonics_and_tinctures:decay\"}",
+    "count": 4
+  }
+}

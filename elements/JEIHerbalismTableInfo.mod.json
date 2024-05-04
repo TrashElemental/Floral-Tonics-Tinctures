@@ -1,0 +1,14 @@
+{
+  "_fv": 60,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:HerbalismTable"
+      }
+    ],
+    "information": [
+      "With an herbalism table, you can brew tonics and tinctures using flowers, and other natural items. Positive potion effects use sugar as an additional ingredient, while negative effects use spider eye. Tonics and tinctures can be stacked up to three, but only last half as long as their potion counterpart. Most tonics and tinctures can also be used to craft tipped arrows."
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "floral_tonics_and_tinctures:ftt_purifying_tonic"
+    },
+    "title": {
+      "translate": "advancements.drink_purifying_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.drink_purifying_advancement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "drink_purifying_advancement_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "floral_tonics_and_tinctures:ftt_purifying_tonic"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "floral_tonics_and_tinctures:floral_tonics_and_tinctures_advancement"
+}

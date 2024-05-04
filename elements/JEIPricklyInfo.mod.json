@@ -1,0 +1,14 @@
+{
+  "_fv": 60,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:FTTPricklyTonic"
+      }
+    ],
+    "information": [
+      "Entities with the prickly effect will deal a half-heart of damage to their attacker each time they are hit."
+    ]
+  }
+}

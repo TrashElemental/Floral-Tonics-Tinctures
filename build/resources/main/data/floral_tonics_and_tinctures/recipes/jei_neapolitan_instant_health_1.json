@@ -1,0 +1,18 @@
+{
+  "type": "floral_tonics_and_tinctures:jei_herbalism_recipe_type",
+  "ingredients": [
+    {
+      "item": "neapolitan:strawberries"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "output": {
+    "item": "floral_tonics_and_tinctures:ftt_neapolitan_instant_health_1",
+    "count": 1
+  }
+}

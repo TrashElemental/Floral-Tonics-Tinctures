@@ -1,0 +1,21 @@
+{
+  "_fv": 60,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Nausea",
+    "splashName": "Splash Potion of Nausea",
+    "lingeringName": "Lingering Potion of Nausea",
+    "arrowName": "Arrow of Nausea",
+    "effects": [
+      {
+        "effect": {
+          "value": "NAUSEA"
+        },
+        "duration": 1000,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

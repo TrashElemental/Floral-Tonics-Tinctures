@@ -1,0 +1,21 @@
+{
+  "_fv": 60,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Dolphin's Grace",
+    "splashName": "Splash Potion of Dolphin's Grace",
+    "lingeringName": "Lingering Potion of Dolphin's Grace",
+    "arrowName": "Arrow of Dolphin's Grace",
+    "effects": [
+      {
+        "effect": {
+          "value": "DOLPHINS_GRACE"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

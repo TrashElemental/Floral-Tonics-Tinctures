@@ -1,0 +1,18 @@
+{
+  "type": "floral_tonics_and_tinctures:jei_herbalism_recipe_type",
+  "ingredients": [
+    {
+      "tag": "floral_tonics_and_tinctures:sponges"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "output": {
+    "item": "floral_tonics_and_tinctures:ftt_purifying_tonic",
+    "count": 1
+  }
+}

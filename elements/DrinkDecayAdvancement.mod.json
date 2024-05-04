@@ -1,0 +1,25 @@
+{
+  "_fv": 60,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "I Don't Know What I Expected",
+    "achievementDescription": "Drink a Tincture of Decay for some reason.",
+    "achievementIcon": {
+      "value": "CUSTOM:FTTDecayTincture"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "CUSTOM:FloralTonicsAndTincturesAdvancement"
+    },
+    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"40\" y=\"80\"><next><block type=\"item_consumed\" x=\"183\" y=\"86\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:FTTDecayTincture</field></block></value></block></next></block></xml>"
+  }
+}

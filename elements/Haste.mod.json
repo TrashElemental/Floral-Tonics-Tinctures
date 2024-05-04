@@ -1,0 +1,21 @@
+{
+  "_fv": 60,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Haste",
+    "splashName": "Splash Potion of Haste",
+    "lingeringName": "Lingering Potion of Haste",
+    "arrowName": "Arrow of Haste",
+    "effects": [
+      {
+        "effect": {
+          "value": "HASTE"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

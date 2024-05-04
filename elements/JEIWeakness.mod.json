@@ -1,0 +1,22 @@
+{
+  "_fv": 60,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "jei_herbalism_recipe_type",
+    "result": {
+      "value": "CUSTOM:FTTWeaknessTincture"
+    },
+    "count": 1,
+    "ingredients": [
+      {
+        "value": "TAG:floral_tonics_and_tinctures:tulips"
+      },
+      {
+        "value": "Items.SPIDER_EYE"
+      },
+      {
+        "value": "Items.GLASS_BOTTLE"
+      }
+    ]
+  }
+}
