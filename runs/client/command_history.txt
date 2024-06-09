@@ -1,1 +1,0 @@
-/enchant @s floral_tonics_and_tinctures:floral_gift 2
