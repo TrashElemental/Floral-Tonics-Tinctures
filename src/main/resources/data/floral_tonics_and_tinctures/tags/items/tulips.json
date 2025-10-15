@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "minecraft:red_tulip",
+      "required": false
+    },
+    {
+      "id": "minecraft:orange_tulip",
+      "required": false
+    },
+    {
+      "id": "minecraft:white_tulip",
+      "required": false
+    },
+    {
+      "id": "minecraft:pink_tulip",
+      "required": false
+    }
+  ]
+}

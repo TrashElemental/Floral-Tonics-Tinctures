@@ -1,0 +1,24 @@
+{
+  "values": [
+    "#minecraft:flowers",
+    "#floral_tonics_and_tinctures:herbalism_ingredients",
+
+    {
+      "id": "floral_tonics_and_tinctures:tonic",
+      "required": false
+    },
+    {
+      "id": "minecraft:glass_bottle",
+      "required": false
+    },
+    {
+      "id": "minecraft:spider_eye",
+      "required": false
+    },
+    {
+      "id": "minecraft:sugar",
+      "required": false
+    }
+
+  ]
+}

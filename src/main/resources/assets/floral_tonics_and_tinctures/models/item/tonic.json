@@ -1,0 +1,16 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "floral_tonics_and_tinctures:item/tonic",
+    "layer1": "floral_tonics_and_tinctures:item/tonic_liquid"
+  },
+  "overrides": [
+    {
+      "predicate":
+      {
+        "floral_tonics_and_tinctures:is_negative": 1
+      },
+      "model": "floral_tonics_and_tinctures:item/tincture"
+    }
+  ]
+}

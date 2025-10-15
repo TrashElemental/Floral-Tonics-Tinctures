@@ -1,0 +1,170 @@
+{
+  "values": [
+    "#minecraft:flowers",
+
+    {
+      "id": "minecraft:sponge",
+      "required": false
+    },
+    {
+      "id": "minecraft:wet_sponge",
+      "required": false
+    },
+    {
+      "id": "minecraft:chorus_flower",
+      "required": false
+    },
+    {
+      "id": "minecraft:cactus",
+      "required": false
+    },
+    {
+      "id": "minecraft:crimson_fungus",
+      "required": false
+    },
+    {
+      "id": "minecraft:warped_fungus",
+      "required": false
+    },
+    {
+      "id": "minecraft:lily_pad",
+      "required": false
+    },
+    {
+      "id": "minecraft:glow_berries",
+      "required": false
+    },
+    {
+      "id": "minecraft:sea_pickle",
+      "required": false
+    },
+
+    {
+      "id": "neapolitan:banana",
+      "required": false
+    },
+    {
+      "id": "neapolitan:mint_leaves",
+      "required": false
+    },
+    {
+      "id": "neapolitan:adzuki_beans",
+      "required": false
+    },
+    {
+      "id": "neapolitan:vanilla_pods",
+      "required": false
+    },
+
+    {
+      "id": "brewery:banana",
+      "required": false
+    },
+    {
+      "id": "brewery:dried_corn",
+      "required": false
+    },
+    {
+      "id": "brewery:dried_barley",
+      "required": false
+    },
+    {
+      "id": "brewery:hops",
+      "required": false
+    },
+    {
+      "id": "brewery:dried_oat",
+      "required": false
+    },
+    {
+      "id": "brewery:dried_wheat",
+      "required": false
+    },
+
+    {
+      "id": "alexsmobs:gongylidia",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:acacia_blossom",
+      "required": false
+    },
+
+    {
+      "id": "alexscaves:ping_pong_sponge",
+      "required": false
+    },
+    {
+      "id": "alexscaves:tree_star",
+      "required": false
+    },
+    {
+      "id": "alexscaves:lollipop_bunch",
+      "required": false
+    },
+
+    {
+      "id": "born_in_chaos_v1:marigolds",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:river_mint",
+      "required": false
+    },
+
+    {
+      "id": "ars_nouveau:sourceberry_bush",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:magebloom",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:bombegranate_pod",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:bastion_pod",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:frostaya_pod",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:mendosteen_pod",
+      "required": false
+    },
+
+    {
+      "id": "the_bumblezone:pollen_puff",
+      "required": false
+    },
+
+    {
+      "id": "upgrade_aquatic:pickerelweed",
+      "required": false
+    },
+
+    {
+      "id": "vampirism:vampire_orchid",
+      "required": false
+    },
+
+    {
+      "id": "occultism:datura",
+      "required": false
+    },
+
+    {
+      "id": "herbalbrews:hibiscus",
+      "required": false
+    },
+    {
+      "id": "herbalbrews:lavender",
+      "required": false
+    }
+
+  ]
+}
