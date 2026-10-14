@@ -39,7 +39,6 @@ public class HerbalismKitMenu extends AbstractContainerMenu implements Supplier<
     };
     private final ItemStack bagStack;
 
-    @OnlyIn(Dist.CLIENT)
     public HerbalismKitMenu(int id, Inventory inv, FriendlyByteBuf buf) {
         this(id, inv, buf.readItem());
     }

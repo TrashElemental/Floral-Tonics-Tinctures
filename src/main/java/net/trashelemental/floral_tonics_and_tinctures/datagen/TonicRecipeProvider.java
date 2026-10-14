@@ -7,11 +7,15 @@ import net.minecraft.data.DataProvider;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.effect.MobEffect;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.alchemy.Potion;
 import net.minecraft.world.item.alchemy.Potions;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.trashelemental.floral_tonics_and_tinctures.block.ModBlocks;
+import net.trashelemental.floral_tonics_and_tinctures.item.ModItems;
 import net.trashelemental.floral_tonics_and_tinctures.magic.brewing.ModPotions;
 import net.trashelemental.floral_tonics_and_tinctures.magic.effects.ModMobEffects;
 
@@ -50,7 +54,7 @@ public class TonicRecipeProvider implements DataProvider {
                 saveRecipe(cache, "fire_resistance", tonicFromPositivePotion(Items.ALLIUM, Potions.FIRE_RESISTANCE)),
                 saveRecipe(cache, "dolphins_grace", tonicFromPositivePotion(Items.SEA_PICKLE, ModPotions.DOLPHINS_GRACE_POTION.get())),
                 saveRecipe(cache, "glowing", tonicFromPositivePotion(Items.GLOW_BERRIES, ModPotions.GLOWING_POTION.get())),
-                saveRecipe(cache, "haste", tonicFromPositivePotion(Items.GOLDEN_APPLE, ModPotions.HASTE_POTION.get())),
+                saveRecipe(cache, "haste", tonicFromPositivePotion(Items.SUNFLOWER, ModPotions.HASTE_POTION.get())),
 
                 saveRecipe(cache, "slowness", tonicFromNegativePotion(Items.BLUE_ORCHID, Potions.SLOWNESS)),
                 saveRecipe(cache, "poison", tonicFromNegativePotion(Items.LILY_OF_THE_VALLEY, Potions.POISON)),
@@ -64,17 +68,20 @@ public class TonicRecipeProvider implements DataProvider {
                 saveRecipe(cache, "weakness_red", tonicFromNegativePotion(Items.RED_TULIP, Potions.WEAKNESS)),
 
                 //FTT Effect Recipes
-                saveRecipe(cache, "prickly", tonicFromPositiveEffect(Items.CACTUS, ModMobEffects.PRICKLY.get(), longDuration)),
-                saveRecipe(cache, "purifying", tonicFromPositiveEffect(Items.SPONGE, ModMobEffects.PURIFYING.get(), longDuration)),
+                saveRecipe(cache, "prickly", tonicFromPositivePotion(Items.CACTUS, ModPotions.PRICKLY_POTION.get())),
+                saveRecipe(cache, "purifying", tonicFromPositivePotion(ModBlocks.MILKWEED.get().asItem(), ModPotions.PURIFYING_POTION.get())),
+                saveRecipe(cache, "fiery", tonicFromPositivePotion(ModBlocks.FIRE_LILY.get().asItem(), ModPotions.FIERY_POTION.get())),
+                saveRecipe(cache, "frosty", tonicFromPositivePotion(ModBlocks.HEATHER.get().asItem(), ModPotions.FROSTY_POTION.get())),
+                saveRecipe(cache, "gold_rush", tonicFromPositivePotion(ModBlocks.MIDAS_FINGERS.get().asItem(), ModPotions.GOLD_RUSH_POTION.get())),
+                saveRecipe(cache, "magic_resistance", tonicFromPositivePotion(ModBlocks.MOLY.get().asItem(), ModPotions.MAGIC_RESISTANCE_POTION.get())),
+                saveRecipe(cache, "volatility", tonicFromNegativePotion(ModBlocks.LAVADROP.get().asItem(), ModPotions.VOLATILITY_POTION.get())),
+                saveRecipe(cache, "resistance", tonicFromPositivePotion(ModBlocks.STELLA.get().asItem(), ModPotions.RESISTANCE_POTION.get())),
+                saveRecipe(cache, "floral_scent", tonicFromPositivePotion(Blocks.PINK_PETALS.asItem(), ModPotions.FLORAL_SCENT_POTION.get())),
+                saveRecipe(cache, "wayfaring", tonicFromPositivePotion(ModBlocks.CLOVER_PATCH.get().asItem(), ModPotions.WAYFARING_POTION.get())),
 
                 //Compat Recipes
-                saveRecipe(cache, "paralyzed", moddedNegativeTonic(
-                        "the_bumblezone", "pollen_puff", "paralyzed", shortDuration)),
-                saveRecipe(cache, "protection_of_the_hive", moddedPositiveTonic(
-                        "the_bumblezone", "pollen_puff", "protection_of_the_hive", longDuration)),
-
-                saveRecipe(cache, "protection_of_the_hive", moddedPositiveTonic("the_bumblezone",
-                        "pollen_puff", "protection_of_the_hive", longDuration)),
+                saveRecipe(cache, "paralyzed", moddedNegativeTonicFromPotion("the_bumblezone",
+                                "pollen_puff", "neurotoxin")),
                 saveRecipe(cache, "protection_of_the_hive", moddedPositiveTonic("the_bumblezone",
                         "pollen_puff", "protection_of_the_hive", longDuration)),
 
@@ -106,44 +113,44 @@ public class TonicRecipeProvider implements DataProvider {
                 saveRecipe(cache, "renewing_touch", moddedPositiveTonic("brewery",
                         "dried_wheat", "renewingtouch", longDuration)),
 
-                saveRecipe(cache, "bug_pheromones", moddedPositiveTonic("alexsmobs",
-                        "gongylidia", "bug_pheromones", longDuration)),
-                saveRecipe(cache, "knockback_resistance", moddedPositiveTonic("alexsmobs",
-                        "acacia_blossom", "knockback_resistance", longDuration)),
+                saveRecipe(cache, "bug_pheromones", moddedPositiveTonicFromPotion("alexsmobs",
+                        "gongylidia", "bug_pheromones")),
+                saveRecipe(cache, "knockback_resistance", moddedPositiveTonicFromPotion("alexsmobs",
+                        "acacia_blossom", "knockback_resistance")),
 
-                saveRecipe(cache, "deepsight", moddedPositiveTonic("alexscaves",
-                        "ping_pong_sponge", "deepsight", longDuration)),
                 saveRecipe(cache, "rage", moddedPositiveTonic("alexscaves",
                         "tree_star", "rage", veryShortDuration)),
-                saveRecipe(cache, "sugar_rush", moddedPositiveTonic("alexscaves",
-                        "lollipop_bunch", "sugar_rush", veryShortDuration)),
+                saveRecipe(cache, "deepsight", moddedPositiveTonicFromPotion("alexscaves",
+                        "ping_pong_sponge", "deepsight")),
+                saveRecipe(cache, "sugar_rush", moddedPositiveTonicFromPotion("alexscaves",
+                        "lollipop_bunch", "sugar_rush")),
 
                 saveRecipe(cache, "rampage", moddedPositiveTonic("born_in_chaos_v1",
                         "marigolds", "rampant_rampage", veryShortDuration)),
-                saveRecipe(cache, "intoxication", moddedNegativeTonic("born_in_chaos_v1",
-                        "marigolds", "intoxication", veryShortDuration)),
                 saveRecipe(cache, "ice_barrier", moddedPositiveTonic("born_in_chaos_v1",
                         "river_mint", "ice_barrier", longDuration)),
-                saveRecipe(cache, "stimulation", moddedNegativeTonic("born_in_chaos_v1",
-                        "river_mint", "stimulation", veryShortDuration)),
+                saveRecipe(cache, "intoxication", moddedPositiveTonicFromPotion("born_in_chaos_v1",
+                        "marigolds", "intoxication_potion")),
+                saveRecipe(cache, "stimulation", moddedPositiveTonicFromPotion("born_in_chaos_v1",
+                        "river_mint", "stimulating_potion")),
 
-                saveRecipe(cache, "mana_regen", moddedPositiveTonic("ars_nouveau",
-                        "sourceberry_bush", "mana_regen", longDuration)),
-                saveRecipe(cache, "spell_damage", moddedPositiveTonic("ars_nouveau",
-                        "magebloom", "spell_damage", longDuration)),
-                saveRecipe(cache, "blasting", moddedPositiveTonic("ars_nouveau",
-                        "bombegranate_pod", "blasting", mediumDuration)),
-                saveRecipe(cache, "shielding", moddedPositiveTonic("ars_nouveau",
-                        "bastion_pod", "shielding", mediumDuration)),
-                saveRecipe(cache, "freezing", moddedPositiveTonic("ars_nouveau",
-                        "frostaya_pod", "freezing", mediumDuration)),
-                saveRecipe(cache, "recovery", moddedPositiveTonic("ars_nouveau",
-                        "mendosteen_pod", "recovery", mediumDuration)),
+                saveRecipe(cache, "mana_regen", moddedPositiveTonicFromPotion("ars_nouveau",
+                        "sourceberry_bush", "mana_regen_potion")),
+                saveRecipe(cache, "spell_damage", moddedPositiveTonicFromPotion("ars_nouveau",
+                        "magebloom", "spell_damage_potion")),
+                saveRecipe(cache, "blasting", moddedPositiveTonicFromPotion("ars_nouveau",
+                        "bombegranate_pod", "blasting_potion")),
+                saveRecipe(cache, "shielding", moddedPositiveTonicFromPotion("ars_nouveau",
+                        "bastion_pod", "shielding_potion")),
+                saveRecipe(cache, "freezing", moddedPositiveTonicFromPotion("ars_nouveau",
+                        "frostaya_pod", "freezing_potion")),
+                saveRecipe(cache, "recovery", moddedPositiveTonicFromPotion("ars_nouveau",
+                        "mendosteen_pod", "recovery_potion")),
 
-                saveRecipe(cache, "repellence", moddedPositiveTonic("upgrade_aquatic",
-                        "pickerelweed", "repellence", longDuration)),
-                saveRecipe(cache, "vibing", moddedNegativeTonic("upgrade_aquatic",
-                        "pickerelweed", "vibing", longDuration)),
+                saveRecipe(cache, "repellence", moddedNegativeTonicFromPotion("upgrade_aquatic",
+                        "pickerelweed", "repellence")),
+                saveRecipe(cache, "vibing", moddedPositiveTonicFromPotion("upgrade_aquatic",
+                        "pickerelweed", "vibing")),
 
                 saveRecipe(cache, "sunscreen", moddedPositiveTonic("vampirism",
                         "vampire_orchid", "sunscreen", longDuration)),
@@ -159,6 +166,36 @@ public class TonicRecipeProvider implements DataProvider {
                         "lavender", "tough", longDuration)),
                 saveRecipe(cache, "feral", moddedNegativeTonic("herbalbrews",
                         "lavender", "feral", mediumDuration)),
+
+                saveRecipe(cache, "arachnid_grace", moddedPositiveTonic("hexalia",
+                        "dahlia", "arachnid_grace", mediumDuration)),
+                saveRecipe(cache, "bloodlust", moddedPositiveTonic("hexalia",
+                        "witchweed", "bloodlust", shortDuration)),
+                saveRecipe(cache, "daybloom", moddedPositiveTonic("hexalia",
+                        "begonia", "daybloom", longDuration)),
+                saveRecipe(cache, "siphon", moddedPositiveTonic("hexalia",
+                        "ghost_fern", "siphon", shortDuration)),
+                saveRecipe(cache, "slimewalker", moddedPositiveTonic("hexalia",
+                        "lotus_flower", "slimewalker", mediumDuration)),
+                saveRecipe(cache, "spikeskin", moddedPositiveTonic("hexalia",
+                        "mandrake", "spikeskin", mediumDuration)),
+
+                saveRecipe(cache, "disease_resistance", moddedPositiveTonic("warriorsofpastepoch",
+                        "cistus", "disease_resistance", longDuration)),
+                saveRecipe(cache, "morbidity", moddedNegativeTonic("warriorsofpastepoch",
+                        "cistus", "morbidity", shortDuration)),
+
+                saveRecipe(cache, "allure", moddedPositiveTonic("botania",
+                        "blue_mystical_flower", "allure", mediumDuration)),
+                saveRecipe(cache, "bloodthirst", moddedNegativeTonic("botania",
+                        "red_mystical_flower", "bloodthirst", shortDuration)),
+                saveRecipe(cache, "emptiness", moddedPositiveTonic("botania",
+                        "black_mystical_flower", "emptiness", shortDuration)),
+                saveRecipe(cache, "feather_feet", moddedPositiveTonic("botania",
+                        "light_blue_mystical_flower", "feather_feet", mediumDuration)),
+                saveRecipe(cache, "soul_cross", moddedPositiveTonic("botania",
+                        "light_gray_mystical_flower", "soul_cross", mediumDuration)),
+
         };
 
         return CompletableFuture.allOf(tasks);
@@ -289,5 +326,41 @@ public class TonicRecipeProvider implements DataProvider {
     @Override
     public String getName() {
         return "Tonic Recipes: " + modid;
+    }
+
+    public JsonObject moddedPositiveTonicFromPotion(String modNamespace, String ingredientName, String potionName) {
+        ResourceLocation additive = new ResourceLocation("minecraft", "sugar");
+        ResourceLocation ingredient = new ResourceLocation(modNamespace, ingredientName);
+        ResourceLocation bottle = new ResourceLocation("minecraft", "glass_bottle");
+        ResourceLocation potion = new ResourceLocation(modNamespace, potionName);
+
+        return baseModdedPotionRecipe(additive, ingredient, bottle, potion);
+    }
+
+    public JsonObject moddedNegativeTonicFromPotion(String modNamespace, String ingredientName, String potionName) {
+        ResourceLocation additive = new ResourceLocation("minecraft", "spider_eye");
+        ResourceLocation ingredient = new ResourceLocation(modNamespace, ingredientName);
+        ResourceLocation bottle = new ResourceLocation("minecraft", "glass_bottle");
+        ResourceLocation potion = new ResourceLocation(modNamespace, potionName);
+
+        return baseModdedPotionRecipe(additive, ingredient, bottle, potion);
+    }
+
+    private JsonObject baseModdedPotionRecipe(ResourceLocation additive, ResourceLocation ingredient, ResourceLocation bottle, ResourceLocation potion) {
+        JsonObject json = new JsonObject();
+        json.addProperty("type", modid + ":herbalism");
+
+        json.add("additive", item(additive));
+        json.add("ingredient", item(ingredient));
+        json.add("bottle", item(bottle));
+
+        JsonObject result = new JsonObject();
+        result.addProperty("item", modid + ":tonic");
+        result.addProperty("count", 1);
+        result.addProperty("nbt", "{Potion:\"" + potion + "\"}");
+
+        json.add("result", result);
+
+        return json;
     }
 }

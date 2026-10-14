@@ -4,6 +4,7 @@ import net.minecraft.advancements.Advancement;
 import net.minecraft.advancements.FrameType;
 import net.minecraft.advancements.critereon.ImpossibleTrigger;
 import net.minecraft.advancements.critereon.InventoryChangeTrigger;
+import net.minecraft.advancements.critereon.PlayerTrigger;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -32,10 +33,8 @@ public class ModAdvancementGenerator implements ForgeAdvancementProvider.Advance
                         true, // Announce to Chat
                         false // Hidden
                 )
-                .parent(new ResourceLocation("minecraft:husbandry/root"))
                 .addCriterion("has_herbalism_table", InventoryChangeTrigger.TriggerInstance.hasItems(ModBlocks.HERBALISM_TABLE.get()))
                 .save(writer, new ResourceLocation(FloralTonicsAndTinctures.MOD_ID, "herbalism_kit_table"), existingFileHelper);
-
 
         Advancement HerbalismKitGet = Advancement.Builder.advancement()
                 .display(
@@ -55,7 +54,7 @@ public class ModAdvancementGenerator implements ForgeAdvancementProvider.Advance
 
         Advancement PurifyingTonicDrink = Advancement.Builder.advancement()
                 .display(
-                        Items.SPONGE,
+                        ModBlocks.MILKWEED.get(),
                         Component.translatable("advancements.floral_tonics_and_tinctures.purifying_drink.title"),
                         Component.translatable("advancements.floral_tonics_and_tinctures.purifying_drink.description"),
                         new ResourceLocation("textures/gui/advancements/backgrounds/stone.png"),
@@ -112,6 +111,52 @@ public class ModAdvancementGenerator implements ForgeAdvancementProvider.Advance
                 .parent(HerbalismTableGet)
                 .addCriterion("impossible", new ImpossibleTrigger.TriggerInstance())
                 .save(writer, new ResourceLocation("floral_tonics_and_tinctures","nausea_tonic_drink"), existingFileHelper);
+
+
+        Advancement MolyFlowerGet = Advancement.Builder.advancement()
+                .display(
+                        ModBlocks.MOLY.get(), // Icon
+                        Component.translatable("advancements.floral_tonics_and_tinctures.moly_get.title"), // Title
+                        Component.translatable("advancements.floral_tonics_and_tinctures.moly_get.description"), // Description
+                        new ResourceLocation("textures/gui/advancements/backgrounds/stone.png"), // Background
+                        FrameType.GOAL, // Frame Type
+                        true, // Show Toast
+                        true, // Announce to Chat
+                        false // Hidden
+                )
+                .parent(HerbalismTableGet)
+                .addCriterion("has_moly", InventoryChangeTrigger.TriggerInstance.hasItems(ModBlocks.MOLY.get()))
+                .save(writer, new ResourceLocation(FloralTonicsAndTinctures.MOD_ID, "has_moly"), existingFileHelper);
+
+        Advancement MidasFlowerGet = Advancement.Builder.advancement()
+                .display(
+                        ModBlocks.MIDAS_FINGERS.get(), // Icon
+                        Component.translatable("advancements.floral_tonics_and_tinctures.midas_get.title"), // Title
+                        Component.translatable("advancements.floral_tonics_and_tinctures.midas_get.description"), // Description
+                        new ResourceLocation("textures/gui/advancements/backgrounds/stone.png"), // Background
+                        FrameType.GOAL, // Frame Type
+                        true, // Show Toast
+                        true, // Announce to Chat
+                        false // Hidden
+                )
+                .parent(HerbalismTableGet)
+                .addCriterion("has_midas", InventoryChangeTrigger.TriggerInstance.hasItems(ModBlocks.MIDAS_FINGERS.get()))
+                .save(writer, new ResourceLocation(FloralTonicsAndTinctures.MOD_ID, "has_midas"), existingFileHelper);
+
+        Advancement StellaFlowerGet = Advancement.Builder.advancement()
+                .display(
+                        ModBlocks.STELLA.get(), // Icon
+                        Component.translatable("advancements.floral_tonics_and_tinctures.stella_get.title"), // Title
+                        Component.translatable("advancements.floral_tonics_and_tinctures.stella_get.description"), // Description
+                        new ResourceLocation("textures/gui/advancements/backgrounds/stone.png"), // Background
+                        FrameType.GOAL, // Frame Type
+                        true, // Show Toast
+                        true, // Announce to Chat
+                        false // Hidden
+                )
+                .parent(HerbalismTableGet)
+                .addCriterion("has_stella", InventoryChangeTrigger.TriggerInstance.hasItems(ModBlocks.STELLA.get()))
+                .save(writer, new ResourceLocation(FloralTonicsAndTinctures.MOD_ID, "has_stella"), existingFileHelper);
 
     }
 }

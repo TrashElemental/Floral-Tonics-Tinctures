@@ -20,6 +20,9 @@ public class ModItems {
     public static final RegistryObject<Item> HERBALISM_KIT = ITEMS.register("herbalism_kit",
             () -> new HerbalismKitItem(new Item.Properties()));
 
+    public static final RegistryObject<Item> FOUR_LEAF_CLOVER = ITEMS.register("four_leaf_clover",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

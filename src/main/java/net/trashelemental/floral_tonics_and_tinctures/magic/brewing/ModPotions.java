@@ -8,6 +8,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.trashelemental.floral_tonics_and_tinctures.FloralTonicsAndTinctures;
+import net.trashelemental.floral_tonics_and_tinctures.magic.effects.ModMobEffects;
 
 public class ModPotions {
     public static final DeferredRegister<Potion> REGISTRY = DeferredRegister.create(ForgeRegistries.POTIONS, FloralTonicsAndTinctures.MOD_ID);
@@ -67,6 +68,62 @@ public class ModPotions {
             new Potion(new MobEffectInstance(MobEffects.CONFUSION, veryShortDuration, 0, false, true)));
     public static final RegistryObject<Potion> NAUSEA_POTION_LONG = REGISTRY.register("nausea_potion_long", () ->
             new Potion(new MobEffectInstance(MobEffects.CONFUSION, veryShortDurationLong, 0, false, true)));
+
+    public static final RegistryObject<Potion> RESISTANCE_POTION = REGISTRY.register("resistance", () ->
+            new Potion(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, mediumDuration, 0, false, true)));
+    public static final RegistryObject<Potion> RESISTANCE_POTION_LONG = REGISTRY.register("resistance_long", () ->
+            new Potion(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, mediumDurationLong, 0, false, true)));
+    public static final RegistryObject<Potion> RESISTANCE_POTION_STRONG = REGISTRY.register("resistance_strong", () ->
+            new Potion(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, mediumDurationStrong, 1, false, true)));
+
+
+    //FTT Potions
+    public static final RegistryObject<Potion> FIERY_POTION = REGISTRY.register("fiery", () ->
+            new Potion(new MobEffectInstance(ModMobEffects.FIERY.get(), mediumDuration, 0, false, true)));
+    public static final RegistryObject<Potion> FIERY_LONG = REGISTRY.register("fiery_long", () ->
+            new Potion(new MobEffectInstance(ModMobEffects.FIERY.get(), mediumDurationLong, 0, false, true)));
+
+    public static final RegistryObject<Potion> FLORAL_SCENT_POTION = REGISTRY.register("floral_scent", () ->
+            new Potion(new MobEffectInstance(ModMobEffects.FLORAL_SCENT.get(), mediumDuration, 0, false, true)));
+    public static final RegistryObject<Potion> FLORAL_SCENT_LONG = REGISTRY.register("floral_scent_long", () ->
+            new Potion(new MobEffectInstance(ModMobEffects.FLORAL_SCENT.get(), mediumDurationLong, 0, false, true)));
+
+    public static final RegistryObject<Potion> FROSTY_POTION = REGISTRY.register("frosty", () ->
+            new Potion(new MobEffectInstance(ModMobEffects.FROSTY.get(), mediumDuration, 0, false, true)));
+    public static final RegistryObject<Potion> FROSTY_LONG = REGISTRY.register("frosty_long", () ->
+            new Potion(new MobEffectInstance(ModMobEffects.FROSTY.get(), mediumDurationLong, 0, false, true)));
+
+    public static final RegistryObject<Potion> GOLD_RUSH_POTION = REGISTRY.register("gold_rush", () ->
+            new Potion(new MobEffectInstance(ModMobEffects.GOLD_RUSH.get(), mediumDuration, 0, false, true)));
+    public static final RegistryObject<Potion> GOLD_RUSH_LONG = REGISTRY.register("gold_rush_long", () ->
+            new Potion(new MobEffectInstance(ModMobEffects.GOLD_RUSH.get(), mediumDurationLong, 0, false, true)));
+
+    public static final RegistryObject<Potion> MAGIC_RESISTANCE_POTION = REGISTRY.register("magic_resistance", () ->
+            new Potion(new MobEffectInstance(ModMobEffects.MAGIC_RESISTANCE.get(), mediumDuration, 0, false, true)));
+    public static final RegistryObject<Potion> MAGIC_RESISTANCE_LONG = REGISTRY.register("magic_resistance_long", () ->
+            new Potion(new MobEffectInstance(ModMobEffects.MAGIC_RESISTANCE.get(), mediumDurationLong, 0, false, true)));
+
+    public static final RegistryObject<Potion> PRICKLY_POTION = REGISTRY.register("prickly", () ->
+            new Potion(new MobEffectInstance(ModMobEffects.PRICKLY.get(), mediumDuration, 0, false, true)));
+    public static final RegistryObject<Potion> PRICKLY_POTION_LONG = REGISTRY.register("prickly_long", () ->
+            new Potion(new MobEffectInstance(ModMobEffects.PRICKLY.get(), mediumDurationLong, 0, false, true)));
+    public static final RegistryObject<Potion> PRICKLY_POTION_STRONG = REGISTRY.register("prickly_strong", () ->
+            new Potion(new MobEffectInstance(ModMobEffects.PRICKLY.get(), mediumDurationStrong, 1, false, true)));
+
+    public static final RegistryObject<Potion> PURIFYING_POTION = REGISTRY.register("purifying", () ->
+            new Potion(new MobEffectInstance(ModMobEffects.PURIFYING.get(), mediumDuration, 0, false, true)));
+    public static final RegistryObject<Potion> PURIFYING_LONG = REGISTRY.register("purifying_long", () ->
+            new Potion(new MobEffectInstance(ModMobEffects.PURIFYING.get(), mediumDurationLong, 0, false, true)));
+
+    public static final RegistryObject<Potion> VOLATILITY_POTION = REGISTRY.register("volatility", () ->
+            new Potion(new MobEffectInstance(ModMobEffects.VOLATILITY.get(), veryShortDuration, 0, false, true)));
+
+    public static final RegistryObject<Potion> WAYFARING_POTION = REGISTRY.register("wayfaring", () ->
+            new Potion(new MobEffectInstance(ModMobEffects.WAYFARING.get(), longDuration, 0, false, true)));
+    public static final RegistryObject<Potion> WAYFARING_LONG = REGISTRY.register("wayfaring_long", () ->
+            new Potion(new MobEffectInstance(ModMobEffects.WAYFARING.get(), longDurationLong, 0, false, true)));
+
+
 
 
     public static void register(IEventBus eventBus) {

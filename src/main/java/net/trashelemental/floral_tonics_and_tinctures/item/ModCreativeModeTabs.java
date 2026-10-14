@@ -23,6 +23,17 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.HERBALISM_TABLE.get());
                         output.accept(ModItems.HERBALISM_KIT.get());
 
+                        output.accept(ModBlocks.FIRE_LILY.get());
+                        output.accept(ModBlocks.HEATHER.get());
+                        output.accept(ModBlocks.MILKWEED.get());
+                        output.accept(ModBlocks.MOLY.get());
+                        output.accept(ModBlocks.LAVADROP.get());
+                        output.accept(ModBlocks.MIDAS_FINGERS.get());
+                        output.accept(ModBlocks.STELLA.get());
+
+                        output.accept(ModBlocks.CLOVER_PATCH.get());
+                        output.accept(ModItems.FOUR_LEAF_CLOVER.get());
+
 
                     }).build());
 

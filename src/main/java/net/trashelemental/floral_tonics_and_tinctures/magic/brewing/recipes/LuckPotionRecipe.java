@@ -5,12 +5,14 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.alchemy.PotionUtils;
 import net.minecraft.world.item.alchemy.Potions;
+import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.common.brewing.BrewingRecipeRegistry;
 import net.minecraftforge.common.brewing.IBrewingRecipe;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.trashelemental.floral_tonics_and_tinctures.FloralTonicsAndTinctures;
+import net.trashelemental.floral_tonics_and_tinctures.item.ModItems;
 import net.trashelemental.floral_tonics_and_tinctures.item.custom.TonicItem;
 
 @Mod.EventBusSubscriber(modid = FloralTonicsAndTinctures.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -28,11 +30,9 @@ public class LuckPotionRecipe implements IBrewingRecipe {
                 && PotionUtils.getPotion(input) == Potions.AWKWARD;
     }
 
-    private final ItemStack tonicOfLuck = TonicItem.withEffect(Potions.LUCK);
-
     @Override
     public boolean isIngredient(ItemStack ingredient) {
-        return ItemStack.isSameItemSameTags(ingredient, tonicOfLuck);
+        return Ingredient.of(new ItemStack(ModItems.FOUR_LEAF_CLOVER.get())).test(ingredient);
     }
 
     @Override

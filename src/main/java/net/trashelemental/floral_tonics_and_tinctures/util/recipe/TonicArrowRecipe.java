@@ -8,6 +8,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.alchemy.Potion;
 import net.minecraft.world.item.alchemy.PotionUtils;
+import net.minecraft.world.item.alchemy.Potions;
 import net.minecraft.world.item.crafting.CraftingBookCategory;
 import net.minecraft.world.item.crafting.CraftingRecipe;
 import net.minecraft.world.item.crafting.CustomRecipe;
@@ -39,7 +40,11 @@ public class TonicArrowRecipe extends CustomRecipe implements CraftingRecipe {
             }
         }
 
-        return !tonic.isEmpty() && arrowCount == 4;
+        if (tonic.isEmpty() || arrowCount != 4) {
+            return false;
+        }
+
+        return PotionUtils.getPotion(tonic) != Potions.EMPTY;
     }
 
     @Override
@@ -57,6 +62,7 @@ public class TonicArrowRecipe extends CustomRecipe implements CraftingRecipe {
         if (tonic.isEmpty()) return ItemStack.EMPTY;
 
         Potion potion = PotionUtils.getPotion(tonic);
+        if (potion == Potions.EMPTY) return ItemStack.EMPTY;
         ItemStack result = new ItemStack(Items.TIPPED_ARROW, 4);
         PotionUtils.setPotion(result, potion);
         return result;

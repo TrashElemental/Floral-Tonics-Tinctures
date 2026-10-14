@@ -3,9 +3,12 @@ package net.trashelemental.floral_tonics_and_tinctures.datagen.tags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.trashelemental.floral_tonics_and_tinctures.FloralTonicsAndTinctures;
+import net.trashelemental.floral_tonics_and_tinctures.block.ModBlocks;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
@@ -21,9 +24,20 @@ public class ModItemTagGenerator extends ItemTagsProvider {
         addForgeTags();
         addNeoforgeTags();
 
+        this.tag(ItemTags.SMALL_FLOWERS)
+                .add(ModBlocks.FIRE_LILY.get().asItem())
+                .add(ModBlocks.MOLY.get().asItem())
+                .add(ModBlocks.HEATHER.get().asItem())
+                .add(ModBlocks.MILKWEED.get().asItem())
+                .add(ModBlocks.LAVADROP.get().asItem())
+                .add(ModBlocks.MIDAS_FINGERS.get().asItem())
+                .add(ModBlocks.STELLA.get().asItem())
+        ;
+
     }
 
     private void addForgeTags() {
+
 
 
     }

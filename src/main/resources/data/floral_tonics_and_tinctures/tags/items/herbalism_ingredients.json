@@ -1,6 +1,7 @@
 {
   "values": [
     "#minecraft:flowers",
+    "#minecraft:small_flowers",
 
     {
       "id": "minecraft:sponge",

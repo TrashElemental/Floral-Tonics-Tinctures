@@ -10,6 +10,8 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.trashelemental.floral_tonics_and_tinctures.FloralTonicsAndTinctures;
+import net.trashelemental.floral_tonics_and_tinctures.block.ModBlocks;
+import net.trashelemental.floral_tonics_and_tinctures.item.ModItems;
 
 
 public class ModItemModelProvider extends ItemModelProvider {
@@ -20,7 +22,15 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
 
+        simpleItem(ModItems.FOUR_LEAF_CLOVER);
 
+        simpleBlockItemBlockTexture(ModBlocks.FIRE_LILY);
+        simpleBlockItemBlockTexture(ModBlocks.HEATHER);
+        simpleBlockItemBlockTexture(ModBlocks.MILKWEED);
+        simpleBlockItemBlockTexture(ModBlocks.MOLY);
+        simpleBlockItemBlockTexture(ModBlocks.LAVADROP);
+        simpleBlockItemBlockTexture(ModBlocks.MIDAS_FINGERS);
+        simpleBlockItemBlockTexture(ModBlocks.STELLA);
 
     }
 
@@ -39,4 +49,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/wall_inventory"))
                 .texture("wall", new ResourceLocation(FloralTonicsAndTinctures.MOD_ID, "block/" + ForgeRegistries.BLOCKS.getKey(baseblock.get()).getPath()));
     }
+
+    private ItemModelBuilder simpleBlockItemBlockTexture(RegistryObject<Block> block) {
+        return withExistingParent(block.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(FloralTonicsAndTinctures.MOD_ID, "block/" + block.getId().getPath()));
+    }
+
+
 }

@@ -7,15 +7,19 @@ import mezz.jei.api.recipe.vanilla.IJeiBrewingRecipe;
 import mezz.jei.api.recipe.vanilla.IVanillaRecipeFactory;
 import mezz.jei.api.registration.IRecipeRegistration;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.alchemy.Potion;
 import net.minecraft.world.item.alchemy.PotionUtils;
 import net.minecraft.world.item.alchemy.Potions;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.trashelemental.floral_tonics_and_tinctures.item.ModItems;
 import net.trashelemental.floral_tonics_and_tinctures.item.custom.TonicItem;
 import net.trashelemental.floral_tonics_and_tinctures.magic.brewing.ModPotions;
 
+import javax.annotation.Nullable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -80,13 +84,69 @@ public class JEIBrewingRecipes implements IModPlugin {
                 ModPotions.GLOWING_POTION_LONG.get()
         );
 
-        //Luck potion from tonic.
-        ItemStack inputPotion = new ItemStack(Items.POTION);
-        PotionUtils.setPotion(inputPotion, Potions.AWKWARD);
-        ItemStack outputPotion = new ItemStack(Items.POTION);
-        PotionUtils.setPotion(outputPotion, Potions.LUCK);
-        ItemStack tonicOfLuck = TonicItem.withEffect(Potions.LUCK);
-        brewingRecipes.add(factory.createBrewingRecipe(List.of(tonicOfLuck), inputPotion, outputPotion));
+
+        ItemStack luckInput = new ItemStack(Items.POTION);
+        PotionUtils.setPotion(luckInput, Potions.AWKWARD);
+        ItemStack luckOutput = new ItemStack(Items.POTION);
+        PotionUtils.setPotion(luckOutput, Potions.LUCK);
+        ItemStack tonicOfLuck = ModItems.FOUR_LEAF_CLOVER.get().getDefaultInstance();
+        brewingRecipes.add(factory.createBrewingRecipe(List.of(tonicOfLuck), luckInput, luckOutput));
+
+
+        for (Potion potion : ForgeRegistries.POTIONS) {
+            if (potion == Potions.EMPTY) continue;
+            ItemStack tonicStack = TonicItem.withEffect(potion);
+            ItemStack inputPotion = tonicStack.copy();
+            ItemStack ingredient = new ItemStack(Items.NETHER_WART);
+            ItemStack outputPotion = new ItemStack(Items.POTION);
+            PotionUtils.setPotion(outputPotion, potion);
+            brewingRecipes.add(factory.createBrewingRecipe(List.of(ingredient), List.of(inputPotion), outputPotion));
+        }
+
+        addPotionUpgradeVariants(brewingRecipes, factory,
+                ModPotions.FIERY_POTION.get(),
+                ModPotions.FIERY_LONG.get(),
+                null);
+
+        addPotionUpgradeVariants(brewingRecipes, factory,
+                ModPotions.FROSTY_POTION.get(),
+                ModPotions.FROSTY_LONG.get(),
+                null);
+
+        addPotionUpgradeVariants(brewingRecipes, factory,
+                ModPotions.FLORAL_SCENT_POTION.get(),
+                ModPotions.FLORAL_SCENT_LONG.get(),
+                null);
+
+        addPotionUpgradeVariants(brewingRecipes, factory,
+                ModPotions.GOLD_RUSH_POTION.get(),
+                ModPotions.GOLD_RUSH_LONG.get(),
+                null);
+
+        addPotionUpgradeVariants(brewingRecipes, factory,
+                ModPotions.MAGIC_RESISTANCE_POTION.get(),
+                ModPotions.MAGIC_RESISTANCE_LONG.get(),
+                null);
+
+        addPotionUpgradeVariants(brewingRecipes, factory,
+                ModPotions.PRICKLY_POTION.get(),
+                ModPotions.PRICKLY_POTION_LONG.get(),
+                ModPotions.PRICKLY_POTION_STRONG.get());
+
+        addPotionUpgradeVariants(brewingRecipes, factory,
+                ModPotions.PURIFYING_POTION.get(),
+                ModPotions.PURIFYING_LONG.get(),
+                null);
+
+        addPotionUpgradeVariants(brewingRecipes, factory,
+                ModPotions.WAYFARING_POTION.get(),
+                ModPotions.WAYFARING_LONG.get(),
+                null);
+
+        addPotionUpgradeVariants(brewingRecipes, factory,
+                ModPotions.RESISTANCE_POTION.get(),
+                ModPotions.RESISTANCE_POTION_LONG.get(),
+                ModPotions.RESISTANCE_POTION_STRONG.get());
 
         registration.addRecipes(RecipeTypes.BREWING, brewingRecipes);
     }
@@ -153,4 +213,32 @@ public class JEIBrewingRecipes implements IModPlugin {
         ));
     }
 
+    private static void addPotionUpgradeVariants(List<IJeiBrewingRecipe> brewingRecipes, IVanillaRecipeFactory factory,
+                                                 Potion basePotion, @Nullable Potion longPotion, @Nullable Potion strongPotion) {
+        // Base potion input stack
+        ItemStack baseInput = new ItemStack(Items.POTION);
+        PotionUtils.setPotion(baseInput, basePotion);
+
+        // Long potion input/output
+        if (longPotion != null) {
+            ItemStack longOutput = new ItemStack(Items.POTION);
+            PotionUtils.setPotion(longOutput, longPotion);
+            brewingRecipes.add(factory.createBrewingRecipe(
+                    List.of(baseInput.copy()),                  // input potion
+                    List.of(new ItemStack(Items.REDSTONE)),    // ingredient
+                    longOutput                                  // result
+            ));
+        }
+
+        // Strong potion input/output
+        if (strongPotion != null) {
+            ItemStack strongOutput = new ItemStack(Items.POTION);
+            PotionUtils.setPotion(strongOutput, strongPotion);
+            brewingRecipes.add(factory.createBrewingRecipe(
+                    List.of(baseInput.copy()),                  // input potion
+                    List.of(new ItemStack(Items.GLOWSTONE_DUST)), // ingredient
+                    strongOutput                                // result
+            ));
+        }
+    }
 }

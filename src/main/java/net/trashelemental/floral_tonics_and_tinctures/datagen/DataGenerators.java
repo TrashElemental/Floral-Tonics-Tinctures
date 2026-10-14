@@ -42,7 +42,7 @@ public class DataGenerators {
         generator.addProvider(event.includeServer(), new TonicRecipeProvider(packOutput, FloralTonicsAndTinctures.MOD_ID));
 
         generator.addProvider(event.includeServer(), new ModAdvancementProvider(packOutput, lookupProvider, existingFileHelper));
-
+        generator.addProvider(event.includeServer(), new ModDataPackEntriesProvider(packOutput, lookupProvider));
 
     }
 }
